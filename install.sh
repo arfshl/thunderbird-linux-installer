@@ -4,8 +4,8 @@ sudo wget https://ftp.mozilla.org/pub/thunderbird/releases/136.0/linux-x86_64/en
 cd /opt
 sudo tar xjvf /opt/thunderbird*.tar.*
 sudo chmod -R 755 /opt/thunderbird*
-sudo ln -s /opt/thunderbird/thunderbird usr/local/bin/thunderbird
+sudo ln -s /opt/thunderbird/thunderbird /usr/local/bin/thunderbird
 wget https://raw.githubusercontent.com/mozilla/sumo-kb/main/installing-thunderbird-linux/thunderbird.desktop -P /usr/local/share/applications
 sudo rm /opt/thunderbird.tar.*
 rm ~/install.sh
-firefox
+thunderbird
