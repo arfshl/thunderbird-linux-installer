@@ -1,3 +1,5 @@
+#### Moved To https://github.com/arfshl/my-tarball-installer
+
 # thunderbird-linux-installer
 Install Mozilla Thunderbird with a scirpt (x86-64 only)
 ## Install Thunderbird (All User)
